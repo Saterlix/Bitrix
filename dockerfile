@@ -1,0 +1,1 @@
+Используем официальный образ Python как базовыйFROM python:3.10-slimУстанавливаем рабочую директорию в контейнереWORKDIR /appКопируем requirements.txt и устанавливаем зависимостиCOPY requirements.txt .RUN pip install -r requirements.txtКопируем остальную часть проектаCOPY . .Команда для запуска вашего ботаCMD ["python", "bot.py"]
